@@ -10,3 +10,4 @@ $query = "UPDATE `crud01`.`personalinfo` SET `fullname` = '".$_POST['fullname'].
 mysqli_query($link, $query);
 
 header('location:list.php');
+?>

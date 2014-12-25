@@ -15,3 +15,4 @@ VALUES (
 mysqli_query($link, $query);
 
 header('location:list.php');
+?>

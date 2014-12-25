@@ -30,4 +30,3 @@ $row = mysqli_fetch_assoc($result);
     <button type="submit" align="right">Update</button>
 
 </form>
-
