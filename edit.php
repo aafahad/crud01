@@ -25,7 +25,7 @@ $row = mysqli_fetch_assoc($result);
 
 
     <label>Name</label><span>*</span>
-    <input type="text" name="name" value="<?php echo $row['name'];?>" /></br>
+    <input type="text" name="fullname" value="<?php echo $row['fullname'];?>" /></br>
 
     <button type="submit" align="right">Update</button>
 
