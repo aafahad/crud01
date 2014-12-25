@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79d5148-f8ad-451f-be6d-2d44247c4a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/add.php" afterPath="$PROJECT_DIR$/personalinfo/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/create.html" afterPath="$PROJECT_DIR$/personalinfo/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/list.php" afterPath="$PROJECT_DIR$/personalinfo/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/update.php" afterPath="$PROJECT_DIR$/personalinfo/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crud01.iws" />
