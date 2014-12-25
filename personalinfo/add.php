@@ -1,7 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: fahad
- * Date: 12/26/14
- * Time: 12:01 AM
- */ 
+$link = mysqli_connect("localhost",
+    "root",
+    "lict@2",
+    "crud01");
+
+$query="INSERT INTO `crud01`.`personalinfo` (
+`name`
+)
+
+VALUES (
+                 '".$_POST['name']."'
+);";
+
+mysqli_query($link, $query);
+
+header('location:list.php');
