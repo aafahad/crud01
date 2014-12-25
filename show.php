@@ -2,10 +2,11 @@
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "lict ftfl");
+    "lict_ftfl");
 $query = "select * from profile;";
 $result = mysqli_query($link, $query);
 ?>
+
 <table border="1" width="100%">
     <tr>
         <td>ID</td>

@@ -3,8 +3,8 @@ $id = $_GET['id'];
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "lict ftfl");
-$query = "DELETE FROM `lict ftfl`.`profile` WHERE `profile`.`id` = $id";
+    "lict_ftfl");
+$query = "DELETE FROM `lict_ftfl`.`profile` WHERE `profile`.`id` = $id";
 mysqli_query($link, $query);
-header('location:show_info.php');
+header('location:show.php');
 ?>
