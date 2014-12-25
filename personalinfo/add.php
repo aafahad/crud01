@@ -5,11 +5,11 @@ $link = mysqli_connect("localhost",
     "crud01");
 
 $query="INSERT INTO `crud01`.`personalinfo` (
-`name`
+`fullname`
 )
 
 VALUES (
-                 '".$_POST['name']."'
+                 '".$_POST['fullname']."'
 );";
 
 mysqli_query($link, $query);

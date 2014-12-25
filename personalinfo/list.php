@@ -24,7 +24,7 @@ $result = mysqli_query($link, $query);
 
         <tr>
             <td><?php echo $row['id']?></td>
-            <td><?php echo $row['name']?></td>
+            <td><?php echo $row['fullname']?></td>
             <td><a href="view.php?id=<?php echo $row['id']?>">View</a>|
                 <a href="edit.php?id=<?php echo $row['id']?>">Edit</a>|
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
