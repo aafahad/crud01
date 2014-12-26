@@ -18,4 +18,3 @@ print_r($row);
 ?>
 
 <a href="list.php">Go to Home</a>
-

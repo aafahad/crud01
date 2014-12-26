@@ -12,4 +12,3 @@ $query = "DELETE FROM `crud01`.`personalinfo` WHERE `personalinfo`.`id` = $id";
 mysqli_query($link, $query);
 
 header('location:list.php');
-?>
