@@ -33,10 +33,9 @@ $row = mysqli_fetch_assoc($result);
 
     <label>district</label><span>*</span>
     <select name="district" >
-        <option <?php if ($row['district']=='DHAKA') echo 'selected'?> value="DHAKA">DHAKA</option>
-        <option <?php if ($row['district']=='BARISHAL') echo 'selected'?> value="BARISHAL">BARISHAL</option>
-        <option <?php if ($row['district']=='BBA') echo 'selected'?> value="BBA">BBA</option>
-        <option <?php if ($row['district']=='HR') echo 'selected'?> value="HR">HR</option>
+        <option <?php if ($row['district']=='Dhaka') echo 'selected'?> value="Dhaka">Dhaka</option>
+        <option <?php if ($row['district']=='Barishal') echo 'selected'?> value="Barishal">Barishal</option>
+        <option <?php if ($row['district']=='Sylhet') echo 'selected'?> value="Sylhet">Sylhet</option>
         <option <?php if ($row['district']=='Others') echo 'selected'?> value="Others">Others</option>
     </select></br>
 

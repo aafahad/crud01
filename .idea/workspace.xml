@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79d5148-f8ad-451f-be6d-2d44247c4a3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/123123.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/add.php" afterPath="$PROJECT_DIR$/Employment/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/add.php" afterPath="$PROJECT_DIR$/academics/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/add.php" afterPath="$PROJECT_DIR$/contactinfo/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/add.php" afterPath="$PROJECT_DIR$/ict_skills/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/add.php" afterPath="$PROJECT_DIR$/personalinfo/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/add.php" afterPath="$PROJECT_DIR$/reference/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/add.php" afterPath="$PROJECT_DIR$/training_info/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/create.html" afterPath="$PROJECT_DIR$/Employment/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/create.html" afterPath="$PROJECT_DIR$/academics/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/create.html" afterPath="$PROJECT_DIR$/ict_skills/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/create.html" afterPath="$PROJECT_DIR$/reference/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/create.html" afterPath="$PROJECT_DIR$/training_info/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/delete.php" afterPath="$PROJECT_DIR$/Employment/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/delete.php" afterPath="$PROJECT_DIR$/academics/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/delete.php" afterPath="$PROJECT_DIR$/contactinfo/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/delete.php" afterPath="$PROJECT_DIR$/ict_skills/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/delete.php" afterPath="$PROJECT_DIR$/personalinfo/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/delete.php" afterPath="$PROJECT_DIR$/reference/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/delete.php" afterPath="$PROJECT_DIR$/training_info/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/edit.php" afterPath="$PROJECT_DIR$/Employment/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/edit.php" afterPath="$PROJECT_DIR$/academics/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/edit.php" afterPath="$PROJECT_DIR$/contactinfo/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/edit.php" afterPath="$PROJECT_DIR$/ict_skills/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/edit.php" afterPath="$PROJECT_DIR$/personalinfo/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/edit.php" afterPath="$PROJECT_DIR$/reference/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/edit.php" afterPath="$PROJECT_DIR$/training_info/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/list.php" afterPath="$PROJECT_DIR$/Employment/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/list.php" afterPath="$PROJECT_DIR$/academics/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/list.php" afterPath="$PROJECT_DIR$/contactinfo/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/list.php" afterPath="$PROJECT_DIR$/ict_skills/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/list.php" afterPath="$PROJECT_DIR$/personalinfo/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/list.php" afterPath="$PROJECT_DIR$/reference/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/list.php" afterPath="$PROJECT_DIR$/training_info/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/update.php" afterPath="$PROJECT_DIR$/Employment/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/update.php" afterPath="$PROJECT_DIR$/academics/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/update.php" afterPath="$PROJECT_DIR$/contactinfo/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/update.php" afterPath="$PROJECT_DIR$/ict_skills/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/update.php" afterPath="$PROJECT_DIR$/personalinfo/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/update.php" afterPath="$PROJECT_DIR$/reference/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/update.php" afterPath="$PROJECT_DIR$/training_info/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Employment/view.php" afterPath="$PROJECT_DIR$/Employment/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academics/view.php" afterPath="$PROJECT_DIR$/academics/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/view.php" afterPath="$PROJECT_DIR$/contactinfo/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ict_skills/view.php" afterPath="$PROJECT_DIR$/ict_skills/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/view.php" afterPath="$PROJECT_DIR$/personalinfo/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reference/view.php" afterPath="$PROJECT_DIR$/reference/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_info/view.php" afterPath="$PROJECT_DIR$/training_info/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crud01.iws" />
@@ -102,10 +55,10 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contactinfo/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45128205" vertical-offset="276" max-vertical-offset="1020">
-              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.94871795" vertical-offset="360" max-vertical-offset="1005">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
-                <marker date="1419654652350" expanded="true" signature="117:154" placeholder="select * fro..contactinfo..." />
+                <marker date="1419656613514" expanded="true" signature="117:154" placeholder="select * fro..contactinfo..." />
               </folding>
             </state>
           </provider>
@@ -310,7 +263,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1215" height="1000" extended-state="7" />
+    <frame x="65" y="24" width="1215" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -824,10 +777,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contactinfo/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45128205" vertical-offset="276" max-vertical-offset="1020">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.94871795" vertical-offset="360" max-vertical-offset="1005">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
-            <marker date="1419654652350" expanded="true" signature="117:154" placeholder="select * fro..contactinfo..." />
+            <marker date="1419656613514" expanded="true" signature="117:154" placeholder="select * fro..contactinfo..." />
           </folding>
         </state>
       </provider>
