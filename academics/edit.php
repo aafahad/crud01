@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from academics WHERE id = $id";
@@ -20,13 +20,14 @@ $row = mysqli_fetch_assoc($result);
 
     <input type="hidden" name="id" value="<?php echo $row['id'];?>" />
 
-    <label>level_of_education</label>
-    <select name="level_of_education";?>">
-    <option value="SSC">SSC</option>
-    <option value="HSC">HSC</option>
-    <option value="BACHELORS">BACHELORS</option>
-    <option value="MASTERS">MASTERS</option>
+    <label>level_of_education</label><span>*</span>
+    <select name="level_of_education" >
+        <option <?php if ($row['level_of_education']=='SSC') echo 'selected'?> value="SSC">SSC</option>
+        <option <?php if ($row['level_of_education']=='HSC') echo 'selected'?> value="HSC">HSC</option>
+        <option <?php if ($row['level_of_education']=='BACHELORS') echo 'selected'?> value="BACHELORS">BACHELORS</option>
+        <option <?php if ($row['level_of_education']=='MASTERS') echo 'selected'?> value="MASTERS">MASTERS</option>
     </select></br>
+
 
 
 
@@ -38,19 +39,19 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="subject" value="<?php echo $row['subject'];?>"/></br>
 
 
-    <label>institution</label>
-    <select name="institution";?>">
-    <option value="DU">DU</option>
-    <option value="JU">JU</option>
-    <option value="AIUB">AIUB</option>
-    <option value="NSU">NSU</option>
+    <label>institution</label><span>*</span>
+    <select name="institution" >
+        <option <?php if ($row['institution']=='DU') echo 'selected'?> value="DU">DU</option>
+        <option <?php if ($row['institution']=='JU') echo 'selected'?> value="JU">JU</option>
+        <option <?php if ($row['institution']=='AIUB') echo 'selected'?> value="AIUB">AIUB</option>
+        <option <?php if ($row['institution']=='NSU') echo 'selected'?> value="NSU">NSU</option>
     </select></br>
 
 
     <label>result_type</label>
-    <select name="result_type";?>">
-    <option value="grade">grade</option>
-    <option value="division">division</option>
+    <select name="result_type" >
+        <option <?php if ($row['result_type ']=='grade') echo 'selected'?> value="grade">grade</option>
+        <option <?php if ($row['result_type ']=='division') echo 'selected'?> value="division">division</option>
     </select></br>
 
 

@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from contactinfo WHERE id = $id";
@@ -30,8 +30,17 @@ $row = mysqli_fetch_assoc($result);
     <label>permanent_address</label><span>*</span>
     <input type="text" name="permanent_address" value="<?php echo $row['permanent_address'];?>" /></br>
 
+
     <label>district</label><span>*</span>
-    <input type="text" name="district" value="<?php echo $row['district'];?>" /></br>
+    <select name="district" >
+        <option <?php if ($row['district']=='DHAKA') echo 'selected'?> value="DHAKA">DHAKA</option>
+        <option <?php if ($row['district']=='BARISHAL') echo 'selected'?> value="BARISHAL">BARISHAL</option>
+        <option <?php if ($row['district']=='BBA') echo 'selected'?> value="BBA">BBA</option>
+        <option <?php if ($row['district']=='HR') echo 'selected'?> value="HR">HR</option>
+        <option <?php if ($row['district']=='Others') echo 'selected'?> value="Others">Others</option>
+    </select></br>
+
+
 
     <label>home_phone</label><span>*</span>
     <input type="text" name="home_phone" value="<?php echo $row['home_phone'];?>" /></br>

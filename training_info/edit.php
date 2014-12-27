@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from training_info WHERE id = $id";
@@ -33,7 +33,7 @@ $row = mysqli_fetch_assoc($result);
     <label>institute</label><span>*</span>
     <input type="text" name="institute" value="<?php echo $row['institute'];?>" /></br>
 
-    <label>address</label><span>*</span>
+    <label>address</label>
     <input type="text" name="address" value="<?php echo $row['address'];?>" /></br>
 
     <label>training_year</label><span>*</span>
@@ -42,16 +42,16 @@ $row = mysqli_fetch_assoc($result);
     <label>duration</label><span>*</span>
     <input type="text" name="duration" value="<?php echo $row['duration'];?>" /></br>
 
-    <label>start_date</label><span>*</span>
+    <label>start_date</label>
     <input type="text" name="start_date" value="<?php echo $row['start_date'];?>" /></br>
 
-    <label>end_date</label><span>*</span>
+    <label>end_date</label>
     <input type="text" name="end_date" value="<?php echo $row['end_date'];?>" /></br>
 
-    <label>course_detail</label><span>*</span>
+    <label>course_detail</label>
     <input type="text" name="course_detail" value="<?php echo $row['course_detail'];?>" /></br>
 
-    <label>trainer_detail</label><span>*</span>
+    <label>trainer_detail</label>
     <input type="text" name="trainer_detail" value="<?php echo $row['trainer_detail'];?>" /></br>
 
 
@@ -59,3 +59,4 @@ $row = mysqli_fetch_assoc($result);
     <button type="submit" align="right">Update</button>
 
 </form>
+

@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from ict_skills WHERE id = $id";
@@ -21,12 +21,12 @@ $row = mysqli_fetch_assoc($result);
 
 
     <label>experience_cat</label><span>*</span>
-    <select name="experience_cat";?>">
-    <option value="EEE">EEE</option>
-    <option value="CSE">CSE</option>
-    <option value="BBA">BBA</option>
-    <option value="HR">HR</option>
-    <option value="Others">Others</option>
+    <select name="experience_cat" >
+    <option <?php if ($row['experience_cat']=='EEE') echo 'selected'?> value="EEE">EEE</option>
+    <option <?php if ($row['experience_cat']=='CSE') echo 'selected'?> value="CSE">CSE</option>
+    <option <?php if ($row['experience_cat']=='BBA') echo 'selected'?> value="BBA">BBA</option>
+    <option <?php if ($row['experience_cat']=='HR') echo 'selected'?> value="HR">HR</option>
+    <option <?php if ($row['experience_cat']=='Others') echo 'selected'?> value="Others">Others</option>
     </select></br>
 
 

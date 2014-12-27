@@ -1,7 +1,7 @@
 <?php
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query="INSERT INTO `crud01`.`personalinfo` (`id`, `name`, `father_name`, `mother_name`, `religion`, `date_of_birth`, `gender`, `nationality`, `national_id`, `birth_reg`, `passport`)

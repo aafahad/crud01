@@ -2,7 +2,7 @@
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from contactinfo;";
@@ -28,7 +28,6 @@ $result = mysqli_query($link, $query);
         ?>
 
         <tr>
-            <td><?php echo $row['id']?></td>
             <td><?php echo $row['present_address']?></td>
             <td><?php echo $row['permanent_address']?></td>
             <td><?php echo $row['district']?></td>

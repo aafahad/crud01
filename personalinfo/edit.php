@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "select * from personalinfo WHERE id = $id";
@@ -30,20 +30,22 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="mother_name" value="<?php echo $row['mother_name'];?>"/></br>
 
     <label>gender</label><span>*</span>
-    <select name="gender";?>">
-    <option value="Male">Male</option>
-    <option value="Female">Female</option>
-    <option value="Others">Others</option>
+    <select name="gender" >
+        <option <?php if ($row['gender']=='Male') echo 'selected'?> value="Male">Male</option>
+        <option <?php if ($row['gender']=='Female') echo 'selected'?> value="Female">Female</option>
+        <option <?php if ($row['gender']=='Others') echo 'selected'?> value="Others">Others</option>
     </select></br>
 
+
     <label>religion</label><span>*</span>
-    <select name="religion">
-        <option value="Islam">Islam</option>
-        <option value="Christianity">Christianity</option>
-        <option value="Buddhism">Buddhism</option>
-        <option value="Hinduism">Hinduism</option>
-        <option value="Others">Others</option>
+    <select name="religion" >
+        <option <?php if ($row['religion']=='Islam') echo 'selected'?> value="Islam">Islam</option>
+        <option <?php if ($row['religion']=='Christianity') echo 'selected'?> value="Christianity">Christianity</option>
+        <option <?php if ($row['religion']=='Buddhism') echo 'selected'?> value="Buddhism">Buddhism</option>
+        <option <?php if ($row['religion']=='Hinduism') echo 'selected'?> value="Hinduism">Hinduism</option>
+        <option <?php if ($row['religion']=='Others') echo 'selected'?> value="Others">Others</option>
     </select></br>
+
 
     <label>date_of_birth</label><span>*</span>
     <input type="text" name="date_of_birth" value="<?php echo $row['date_of_birth'];?>"/></br>

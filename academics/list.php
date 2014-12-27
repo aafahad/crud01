@@ -2,7 +2,7 @@
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 
@@ -15,7 +15,7 @@ $result = mysqli_query($link, $query);
     <tr>
         <td>level_of_education</td>
         <td>exam_title</td>
-        <td>Subject</td>
+        <td>subject</td>
         <td>institution</td>
         <td>result_type</td>
         <td>result</td>
@@ -32,7 +32,7 @@ $result = mysqli_query($link, $query);
         <tr>
             <td><?php echo $row['level_of_education']?></td>
             <td><?php echo $row['exam_title']?></td>
-            <td><?php echo $row['Subject']?></td>
+            <td><?php echo $row['subject']?></td>
             <td><?php echo $row['institution']?></td>
             <td><?php echo $row['result_type']?></td>
             <td><?php echo $row['result']?></td>

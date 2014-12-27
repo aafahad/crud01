@@ -4,7 +4,7 @@ $id = $_POST['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "UPDATE `crud01`.`training_info` SET `training_title`='".$_POST['training_title']."',`training_description`='".$_POST['training_description']."',

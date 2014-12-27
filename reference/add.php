@@ -1,7 +1,7 @@
 <?php
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query="INSERT INTO `crud01`.`reference` (

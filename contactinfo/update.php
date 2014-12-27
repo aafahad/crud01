@@ -5,7 +5,7 @@ $id = $_POST['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "mysql123",
     "crud01");
 
 $query = "UPDATE `crud01`.`contactinfo` SET `present_address`='".$_POST['present_address']."',`permanent_address`='".$_POST['permanent_address']."',
