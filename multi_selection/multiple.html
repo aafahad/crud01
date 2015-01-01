@@ -1,0 +1,45 @@
+<h4>Information</h4>
+<a href="list.php">LIST</a>
+<a href="multiple.html">CREATE</a>
+<hr>
+
+
+<form action="add.php" method="post">
+
+
+    <label>full_name</label><span>*</span>
+    <input type="text" name="full_name" /></br>
+    </br>
+
+
+    <label>hobby</label><span>*</span>
+    <input type="checkbox" name="hobby_travelling" value="travelling"> travelling
+    <input type="checkbox" name="hobby_reading" value="reading_book"> reading_book
+    <input type="checkbox" name="hobby_movie" value="watching_movie"> watching_movie
+    <input type="checkbox" name="hobby_others" value="others"> others
+    </br></br>
+
+    <label>Food</label><span>*</span>
+    <input type="checkbox" name="food[]" value="rice"> rice
+    <input type="checkbox" name="food[]" value="burger"> burger
+    <input type="checkbox" name="food[]" value="pizza"> pizza
+    <input type="checkbox" name="food[]" value="others"> others
+    </br></br>
+
+    <label>preferred_job_location</label>
+    <select name="preferred_job_location[]" multiple="multiple">
+        <option value="dhaka">dhaka</option>
+        <option value="sylhet">sylhet</option>
+        <option value="chittagong">chittagong</option>
+        <option value="comilla">comilla</option>
+        <option value="rajshahi">rajshahi</option>
+        <option value="bogura">bogura</option>
+        <option value="rangpur">rangpur</option>
+        <option value="others">others</option>
+    </select></br>
+    </br>
+
+
+    <button type="submit" align="right">Submit</button>
+
+</form>
