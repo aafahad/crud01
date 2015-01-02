@@ -1,12 +1,15 @@
 <?php
+
 $name = $_POST['name'];
 $email= $_POST['email'];
 $username = $_POST['username'];
 $password = $_POST['password'];
+
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
     "crud01");
+
 $query = "INSERT INTO `crud01`.`users` (
 `id` ,
 `name` ,

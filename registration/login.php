@@ -7,12 +7,14 @@
     </title>
 </head>
 <body>
+
 <?php
 session_start();
 if(isset($_SESSION['message']))echo $_SESSION['message'];
 if(isset($_SESSION['messagepass']))echo $_SESSION['messagepass'];
 session_unset()
 ?>
+
 <form action="checkuser.php" method="post">
     <h1 style="color: brown" align="center" >Login Form</h1>
     <label>Username:</label>
