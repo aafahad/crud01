@@ -1,10 +1,5 @@
 <html>
-<h4>Photo Upload</h4>
-<a href="index.html">CREATE</a>
-<hr>
-
-
-<form action="upload.php" method="post" enctype="multipart/form-data">
+<form action="index.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="image" id="image">
     <input type="submit" value="Upload Image" name="submit">
@@ -40,8 +35,7 @@ else
         else
         {
             $lastid= mysql_insert_id();
-            echo "img src=get.php?id=$lastid";
-        }
-        }
+            echo "<img src=get.php?id=$lastid>";
 }
-  ?>
+}
+}
